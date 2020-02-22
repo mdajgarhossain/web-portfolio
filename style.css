@@ -7,8 +7,16 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+
 .name-highlight {
-    color: #610eda;
+    color: #4f1b9e;
 }
 
 .half-width {
@@ -29,4 +37,21 @@ h1 {
 
 section {
     height: 500px;
+    padding-bottom: 120px;
+}
+
+.link-button {
+    text-decoration: none;
+    /* background-color: #7a5fa3; */
+    background-image: linear-gradient(45deg, #b19dcf, #612cb1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: seashell;
+    font-weight: bold;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
